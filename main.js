@@ -28,3 +28,12 @@ let arry3 = ['boat','ship'];
 arry3.push('train','plane');
 console.log(arry3);
 
+let arry4 = ['dog','cat','bird'];
+delete arry4[1];
+console.log(arry4);
+
+let num2 = [1,2,3];
+let num3 = [4,5,6];
+let total= num2.concat(num3);
+console.log(total);
+
